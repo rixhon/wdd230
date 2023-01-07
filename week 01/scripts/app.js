@@ -5,3 +5,4 @@ h1.textContent = 'Michael Franz Rixhon Junior';
 
 copyright.textContent = `© ${new Date().getFullYear()}`
 let quantity = document.querySelector('#q').value;
+

@@ -1,0 +1,17 @@
+/*Mobile View*/
+@media screen and (max-width: 600px) {
+  #grid {
+    margin-top: 2em;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .grid_first {
+    grid-column: 1/2;
+  }
+  .grid_second {
+    grid-column: 1/3;
+  }
+  .grid_third {
+    grid-column: 1/3;
+  }
+}

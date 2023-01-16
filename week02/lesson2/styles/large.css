@@ -1,0 +1,18 @@
+/*Desktop View*/
+@media screen and (min-width: 1025px) {
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  }
+  .grid_first {
+    grid-column: 1/2;
+  }
+  .grid_second {
+    grid-column: 2/3;
+  }
+  .grid_third {
+    grid-column: 3/4;
+  }
+}
+=
